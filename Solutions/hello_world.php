@@ -1,7 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: GabeHoverman
- * Date: 10/27/17
- * Time: 3:45 PM
- */
+<html>
+<head>
+	<title>PHP Test</title>
+</head>
+<body>
+<?php echo '<p>Hello World</p>'; ?>
+</body>
+</html>
