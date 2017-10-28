@@ -13,11 +13,13 @@ Participate in Hacktoberfest by contributing to any Open Source project on GitHu
 # How to create the Hello World script
 
 Add a hello_world_yourusername.xx script in any language of your choice! Here is an example:
-'''// LANGUAGE: python
+'''
+// LANGUAGE: python
 // ENV: virtualenv
 // AUTHOR: Buddhi Adhiakri
 // GITHUB: https://github.com/LordDrragonLive
-print 'Hello, World!''''
+print ('Hello, World!')
+'''
 Name the file hello_world_yourusername.xx. e.g., hello_world_LordDraagonLive.py or hello_world_LordDraagonLive.java.
 Include the comments mentioned. Add other comments if needed
 
