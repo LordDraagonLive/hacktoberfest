@@ -26,7 +26,7 @@
 
  procedure TForm1.Button1Click(Sender: TObject);
  begin
-   Label1.Caption := 'Hello World';
+   Label1.Caption := 'Hello world';
  end;
 
  end.
