@@ -1,0 +1,8 @@
+#include "zcommon.acs"
+
+script 1 ENTER
+{
+    print(s:"Hello World!");
+} 
+
+
