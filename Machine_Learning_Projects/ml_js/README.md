@@ -1,4 +1,4 @@
-there is some training data of teams'A','B','C'
+there is some training data of teams A , B , C
 <br>on past experiences of teams, as they played with each other and their wins are recorded as training data . <br>
 it will tell the probabilty of winning the next games by both teams.<br>
 
