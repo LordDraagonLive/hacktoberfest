@@ -1,0 +1,6 @@
+public static void main[String Args]
+{
+  System.Out.Println("Hello World!");
+  System.Out.Println("FUK YOU BUDDI");
+  System.Out.Println("TOXIC SAYS HELLO!");
+}
