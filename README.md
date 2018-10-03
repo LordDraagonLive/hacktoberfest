@@ -1,5 +1,5 @@
 
-# hacktoberfest
+# hacktoberfest 2018
 Participate in Hacktoberfest by contributing to any Open Source project on GitHub! Here is a starter project for first time contributors. #hacktoberfest
  
 
@@ -22,7 +22,5 @@ print ('Hello, World!')
 '''
 Name the file hello_world_yourusername.xx. e.g., hello_world_LordDraagonLive.py or hello_world_LordDraagonLive.java.
 Include the comments mentioned. Add other comments if needed
-
-
 
 Thank you for contributing!
