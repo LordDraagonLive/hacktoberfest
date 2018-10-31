@@ -2,7 +2,6 @@
 # hacktoberfest
 Participate in Hacktoberfest by contributing to any Open Source project on GitHub! Here is a starter project for first time contributors. #hacktoberfest
  
-
 # - To submit a pull request to hello_world_Project
 1. Open the hello world issue.
 2. Create a hello world script using any preferred language 
