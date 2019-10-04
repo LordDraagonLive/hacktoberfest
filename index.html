@@ -1,0 +1,56 @@
+<div id="displayText"></div>
+
+<button onclick="callContractFunction()">
+  click to call the "getHelloWorld" function on the blockchain
+</button>
+
+<!-- This exposes the library as a global variable: web3 -->
+<script src="./web3.min.js"></script>
+
+<script>
+  /**
+    use truffle or remix.ethereum.org to deploy hello.sol
+
+    to interact you need 3 things
+    0. network: the network I chose is rinkeby testnet
+    1. contract address: once deployed you should get a contract address
+    2. abi: is used to interact interface with machine code: example here https://solidity-compiler.herokuapp.com/
+   */
+
+  // connect to testnet
+  web3 = new Web3(
+    new Web3.providers.HttpProvider('https://rinkeby.infura.io/')
+  );
+
+  //     https://rinkeby.etherscan.io/address/0xda6ccc32328d09bf54a16b8c27b1158af56522d8
+  const contractAddress = '0xda6ccc32328d09bf54a16b8c27b1158af56522d8';
+
+  // used to interact with machine code
+  const abi = [
+    {
+      constant: false,
+      inputs: [],
+      name: 'getHelloWorld',
+      outputs: [
+        {
+          internalType: 'string',
+          name: '',
+          type: 'string'
+        }
+      ],
+      payable: false,
+      stateMutability: 'nonpayable',
+      type: 'function'
+    }
+  ];
+
+  async function callContractFunction() {
+    // https://web3js.readthedocs.io/en/v1.2.0/web3-eth-contract.html?highlight=estimateGas#id18
+    new web3.eth.Contract(abi, contractAddress).methods
+      .getHelloWorld()
+      .call()
+      .then(data => {
+        alert(data);
+      });
+  }
+</script>
